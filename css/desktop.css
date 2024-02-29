@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    font: 15px/1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    max-height: 70px;
+    background-color: grey;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 8% 10% 82%;
+}
+
+header ul {
+    float: right;
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+}
+
+header li {
+    float: left;
+    display: inline; /* In einer Linie */
+    padding: 0 20px 0 20px; /* top right bottom left */
+}
+
+header img {
+    max-height: 70px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin-top: 17px;
+}
